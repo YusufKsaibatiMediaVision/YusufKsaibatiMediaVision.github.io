@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ykmediavision.net/sitemap.xml
