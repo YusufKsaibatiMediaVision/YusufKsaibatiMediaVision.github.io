@@ -1,0 +1,33 @@
+@media screen and (min-width: 601px) {
+  main.services.logoDesign section.logoDesign {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services.logoDesign section.logoDesign {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.services.logoDesign section.logoDesign h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services.logoDesign section.logoDesign hr.divider {
+  border: 2px solid #13aec6;
+  width: 12%;
+}
+
+main.services.logoDesign section.logoDesign p {
+  margin: 25px 0 25px 0;
+  font-size: x-large;
+  color: #13aec6;
+}

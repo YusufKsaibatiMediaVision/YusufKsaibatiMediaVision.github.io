@@ -1,0 +1,42 @@
+@media screen and (min-width: 601px) {
+  main.services.webDevelopement section.webDevelopement,
+  main.services.webDevelopement section.features {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services.webDevelopement section.webDevelopement,
+  main.services.webDevelopement section.features {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.services.webDevelopement section.webDevelopement h1.title,
+main.services.webDevelopement section.features h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services.webDevelopement section.webDevelopement hr.divider,
+main.services.webDevelopement section.features hr.divider {
+  border: 2px solid #13aec6;
+  width: 12%;
+}
+
+main.services.webDevelopement section.webDevelopement p,
+main.services.webDevelopement section.features ul li {
+  margin: 25px 0 25px 0;
+  font-size: x-large;
+  color: #13aec6;
+}
+
+main.services.webDevelopement section.features ul li {
+  margin: 10px 0 10px 0;
+}

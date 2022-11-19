@@ -1,0 +1,137 @@
+@media screen and (min-width: 601px) {
+  nav.nav-bar {
+    border-bottom: 3px solid #00e8d2;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  nav.nav-bar div.beginning a.home img.home {
+    display: none;
+  }
+
+  nav.nav-bar a.icon {
+    display: none;
+  }
+
+  nav.nav-bar a.button-up {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  nav.nav-bar a:link,
+  nav.nav-bar a:visited {
+    text-decoration: none;
+    color: #00e8d2;
+  }
+
+  nav.nav-bar a:hover,
+  nav.nav-bar a:active {
+    text-decoration: none;
+    color: #2673b9;
+  }
+
+  nav.nav-bar a.button-up {
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    line-height: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 22px;
+  }
+
+  nav.nav-bar span.label-up {
+    position: relative;
+    transition: 0.3s;
+    display: block;
+    height: 100%;
+    top: 0%;
+  }
+
+  nav.nav-bar a.button-up:hover span.label-up {
+    top: -100%;
+  }
+
+  nav.nav-bar ul.left,
+  nav.nav-bar ul.right {
+    transform: translateY(-250%);
+    list-style-type: none;
+    display: inline-flex;
+    width: 475px;
+  }
+
+  nav.nav-bar ul.left a.button-up,
+  nav.nav-bar ul.right a.button-up {
+    display: inline-block;
+  }
+
+  nav.nav-bar div.middle {
+    display: contents;
+  }
+
+  nav.nav-bar div.middle a.home img.home {
+    height: 150px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.nav-bar {
+    position: relative;
+  }
+
+  nav.nav-bar div.beginning a.home img.home {
+    height: 100px;
+    width: auto;
+  }
+
+  nav.nav-bar a.icon {
+    position: absolute;
+    font-size: 50px;
+    display: block;
+    height: 50px;
+    right: 10px;
+    width: 50px;
+    top: 25px;
+  }
+
+  nav.nav-bar a.icon svg {
+    fill: #2673b9;
+  }
+
+  nav.nav-bar ul.nav-bar-ul {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+  }
+
+  nav.nav-bar ul.nav-bar-ul li.nav-bar-li {
+    padding: 5px 0 5px 0;
+  }
+
+  nav.nav-bar ul.nav-bar-ul li.nav-bar-li a.button-up {
+    text-decoration: none;
+    color: #2673b9;
+  }
+
+  nav.nav-bar ul.nav-bar-ul li.nav-bar-li a.button-up span.pre {
+    font-size: large;
+    margin: 0;
+  }
+
+  nav.nav-bar ul.nav-bar-ul li.nav-bar-li a.button-up span.post {
+    display: none;
+  }
+
+  nav.nav-bar div.middle {
+    display: none;
+  }
+
+  nav.nav-bar div.middle a.home img.home {
+    display: none;
+  }
+}

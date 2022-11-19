@@ -1,0 +1,459 @@
+@media screen and (min-width: 601px) {
+  main.homePage section.whoWeAre {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.whoWeAre {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.homePage section.whoWeAre h1.title {
+  color: #00e8d2;
+}
+
+main.homePage section.whoWeAre hr.divider {
+  border: 2px solid #13aec6;
+  width: 15%;
+}
+
+main.homePage section.whoWeAre a.service {
+  text-decoration: none;
+  font-size: x-large;
+  color: inherit;
+}
+
+main.homePage section.whoWeAre a.service:hover {
+  text-decoration: none;
+  font-size: x-large;
+  color: inherit;
+}
+
+main.homePage section.whoWeAre h2.description {
+  font-size: xx-large;
+  color: #2673b9;
+}
+
+main.homePage section.whoWeAre a.service div.service {
+  transition: color 1s, background-color 1s;
+  border: solid #13aec6;
+  border-radius: 15px;
+  color: #13aec6;
+  padding: 10px;
+}
+
+main.homePage section.whoWeAre a.service div.service:hover {
+  transition: color 1s, background-color 1s;
+  background-color: #13aec6;
+  border: solid #13aec6;
+  border-radius: 15px;
+  color: #f5f5f5;
+  padding: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage section.digitalMarketingServices h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.digitalMarketingServices h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+main.homePage section.digitalMarketingServices hr.divider {
+  border: 2px solid #13aec6;
+  width: 6%;
+}
+
+main.homePage section.digitalMarketingServices div.services {
+  padding: 26.56px 0 0 0;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable {
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td {
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    height: 33.33333333vw;
+    width: 33.33333333vw;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td
+    img {
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  main
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td
+    div.sectionTitle {
+    transition: opacity 0.5s;
+    justify-content: center;
+    flex-direction: column;
+    background: #00e8d2;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+  }
+
+  main
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td
+    div.sectionTitle:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: auto;
+  }
+
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    tr.row1,
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    tr.row2 {
+    display: grid;
+  }
+
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td {
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  main.homePage
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td
+    img {
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+    filter: brightness(75%);
+  }
+
+  main
+    section.digitalMarketingServices
+    div.services
+    table.servicesTable
+    td
+    div.sectionTitle {
+    transition: opacity 0.5s;
+    justify-content: center;
+    flex-direction: column;
+    /* background: gray; */
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    top: 0;
+  }
+}
+
+main
+  section.digitalMarketingServices
+  div.services
+  table.servicesTable
+  td
+  div.sectionTitle
+  h1 {
+  font-size: xx-large;
+  color: #2673b9;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage section.services h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.services h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+main.homePage section.services hr.divider {
+  border: 2px solid #13aec6;
+  width: 6%;
+}
+
+main.homePage section.services div.description h2.listTitle {
+  margin: 50px auto 10px auto;
+  font-size: xx-large;
+  text-align: center;
+  color: #2673b9;
+}
+
+main.homePage section.services div.description ul.services {
+  list-style-type: none;
+  padding: 0;
+}
+
+main.homePage section.services div.description ul.services li.service h3 {
+  margin: 10px auto 10px auto;
+  font-size: x-large;
+  text-align: center;
+  color: #2673b9;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage section.services p.footNote {
+    margin: 40px auto 0px auto;
+    font-size: x-large;
+    text-align: center;
+    color: #13aec6;
+    font-weight: 550;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.services p.footNote {
+    margin: 40px auto 0px auto;
+    font-size: x-large;
+    text-align: center;
+    color: #13aec6;
+    font-weight: 550;
+    width: 80%;
+  }
+}
+
+main.homePage hr.pageDivider.services-reviews {
+  margin: 50px auto 0 auto;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage section.reviews h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.reviews h1.title {
+    margin: 50px auto 0px auto;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+main.homePage section.reviews hr.divider {
+  border: 2px solid #13aec6;
+  width: 6%;
+}
+
+main.homePage section.reviews div.reviews {
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 601px) {
+  main.homePage section.reviews div.reviews ul.testimonials {
+    position: relative;
+    list-style: none;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+  }
+
+  main.homePage section.reviews div.reviews ul.testimonials li.testimonial {
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    height: inherit;
+    width: 700px;
+    float: left;
+    padding: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  main.homePage
+    section.reviews
+    div.reviews
+    ul.testimonials
+    li.testimonial
+    div.testimonial {
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    align-content: center;
+    font-size: x-large;
+    position: absolute;
+    text-align: center;
+    color: #2673b9;
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.homePage section.reviews div.reviews ul.testimonials {
+    position: relative;
+    list-style: none;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+  }
+
+  main.homePage section.reviews div.reviews ul.testimonials li.testimonial {
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    height: inherit;
+    width: 300px;
+    float: left;
+    padding: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  main.homePage
+    section.reviews
+    div.reviews
+    ul.testimonials
+    li.testimonial
+    div.testimonial {
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    align-content: center;
+    font-size: x-large;
+    position: absolute;
+    text-align: center;
+    color: #2673b9;
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 200px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+main.homePage section.reviews div.reviews a.control_prev,
+main.homePage section.reviews div.reviews a.control_next {
+  text-decoration: none;
+  position: absolute;
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  color: #2a2a2a;
+  display: block;
+  padding: 4% 3%;
+  height: auto;
+  opacity: 0.8;
+  z-index: 999;
+  width: auto;
+  top: 40%;
+}
+
+main.homePage section.reviews div.reviews a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+main.homePage section.reviews div.reviews a.control_next {
+  border-radius: 2px 0 0 2px;
+  right: 0;
+}

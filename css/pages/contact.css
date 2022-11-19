@@ -1,0 +1,114 @@
+@media screen and (min-width: 601px) {
+  main.contact section.info div.mapouter {
+    position: relative;
+    text-align: right;
+    height: 600px;
+    padding: 10px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.contact section.info div.mapouter {
+    position: relative;
+    text-align: right;
+    height: 600px;
+    padding: 10px;
+  }
+}
+
+main.contact section.info div.mapouter iframe.gmap_canvas {
+  height: inherit;
+  width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  main.contact section.info {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.contact section.info div.info {
+    text-align: center;
+  }
+}
+
+main.contact section.info div.info h1.title {
+  font-size: x-large;
+  color: #00e8d2;
+}
+
+@media screen and (min-width: 601px) {
+  main.contact section.info div.info p {
+    color: #13aec6;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.contact section.info div.info p {
+    color: #13aec6;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+main.contact section.info div.info div.links div.contactInfo div.address h1 {
+  font-size: x-large;
+  color: #00e8d2;
+}
+
+main.contact section.info div.info div.links div.contactInfo div.address a,
+main.contact section.info div.info div.links div.contactInfo div.phoneNumber a,
+main.contact section.info div.info div.links div.contactInfo div.email a {
+  text-decoration: none;
+  transition: 0.5s ease;
+  font-size: large;
+  color: #13aec6;
+}
+
+main.contact
+  section.info
+  div.info
+  div.links
+  div.contactInfo
+  div.address
+  a:hover,
+main.contact
+  section.info
+  div.info
+  div.links
+  div.contactInfo
+  div.phoneNumber
+  a:hover,
+main.contact section.info div.info div.links div.contactInfo div.email a:hover {
+  transition: 0.5s ease;
+  color: #2673b8;
+}
+
+main.contact section.info div.info div.links div.socials ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0;
+}
+
+main.contact section.info div.info div.links div.socials ul li {
+  margin: 10px;
+}
+
+main.contact section.info div.info div.links div.socials ul li a {
+  transition: 0.5s ease;
+  fill: #13aec6;
+}
+
+main.contact section.info div.info div.links div.socials ul li a:hover {
+  transition: 0.5s ease;
+  fill: #2673b8;
+}
+
+main.contact section.info div.info div.links div.socials ul li a svg {
+  height: 25px;
+  width: auto;
+}

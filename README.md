@@ -1,0 +1,1 @@
+![Yusuf KsaiBati Media Vision - Logo](./images/logos/quoted-transparent-cropped.png)

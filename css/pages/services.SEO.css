@@ -1,0 +1,42 @@
+@media screen and (min-width: 601px) {
+  main.services.SEO section.SEO,
+  main.services.SEO section.features {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services.SEO section.SEO,
+  main.services.SEO section.features {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.services.SEO section.SEO h1.title,
+main.services.SEO section.features h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services.SEO section.SEO hr.divider,
+main.services.SEO section.features hr.divider {
+  border: 2px solid #13aec6;
+  width: 12%;
+}
+
+main.services.SEO section.SEO p,
+main.services.SEO section.features ul li {
+  margin: 25px 0 25px 0;
+  font-size: x-large;
+  color: #13aec6;
+}
+
+main.services.SEO section.features ul li {
+  margin: 10px 0 10px 0;
+}

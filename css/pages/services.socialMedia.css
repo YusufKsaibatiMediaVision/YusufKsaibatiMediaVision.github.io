@@ -1,0 +1,38 @@
+@media screen and (min-width: 601px) {
+  main.services.socialMedia section.marketing,
+  main.services.socialMedia section.ppc {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services.socialMedia section.marketing,
+  main.services.socialMedia section.ppc {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.services.socialMedia section.marketing h1.title,
+main.services.socialMedia section.ppc h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services.socialMedia section.marketing hr.divider,
+main.services.socialMedia section.ppc hr.divider {
+  border: 2px solid #13aec6;
+  width: 12%;
+}
+
+main.services.socialMedia section.marketing p,
+main.services.socialMedia section.ppc p {
+  margin: 25px 0 25px 0;
+  font-size: x-large;
+  color: #13aec6;
+}

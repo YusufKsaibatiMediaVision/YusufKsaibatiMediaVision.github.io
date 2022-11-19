@@ -1,0 +1,122 @@
+@media screen and (min-width: 601px) {
+  main section.contactForm h1.title {
+    margin: 50px auto 0px auto;
+    font-size: xx-large;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main section.contactForm h1.title {
+    margin: 50px auto 0px auto;
+    font-size: xx-large;
+    text-align: center;
+    color: #00e8d2;
+    padding: 10px;
+    width: 80%;
+  }
+}
+
+main section.contactForm hr.divider {
+  border: 2px solid #13aec6;
+  width: 6%;
+}
+
+main section.contactForm form.contactForm {
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+  main section.contactForm form.contactForm input.name,
+  main section.contactForm form.contactForm input.phoneNumber {
+    border: 5px solid #13aec6;
+    background: #f5f5f5;
+    margin: 0 0 17px 0;
+    padding: 15px;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main section.contactForm form.contactForm input.name,
+  main section.contactForm form.contactForm input.phoneNumber {
+    border: 5px solid #13aec6;
+    background: #f5f5f5;
+    margin: 0 0 17px 0;
+    padding: 15px;
+    width: calc(50% + 44px);
+  }
+}
+
+main section.contactForm form.contactForm input.email {
+  border: 5px solid #13aec6;
+  width: calc(50% + 44px);
+  background: #f5f5f5;
+  margin: 0 0 17px 0;
+  padding: 15px;
+}
+
+main section.contactForm form.contactForm div.checkboxes {
+  border: 5px solid #13aec6;
+  margin: auto auto 17px auto;
+  width: calc(50% + 74px);
+  text-align: left;
+}
+
+main section.contactForm form.contactForm div.checkboxes ul.checkboxes {
+  list-style: none;
+  padding: 0;
+}
+
+main
+  section.contactForm
+  form.contactForm
+  div.checkboxes
+  ul.checkboxes
+  li.checkbox {
+  color: #2673b9;
+  font-size: large;
+}
+
+main
+  section.contactForm
+  form.contactForm
+  div.checkboxes
+  ul.checkboxes
+  li.checkbox
+  input[type="checkbox"] {
+  accent-color: #2673b9;
+  transform: scale(2);
+  margin: 10px;
+}
+
+main section.contactForm form.contactForm textarea.message {
+  border: 5px solid #13aec6;
+  width: calc(50% + 44px);
+  background: #f5f5f5;
+  margin: 0 0 17px 0;
+  padding: 15px;
+}
+
+main section.contactForm form.contactForm button.submit {
+  border: 1px solid #2673b9;
+  text-decoration: none;
+  transition: 0.5s ease;
+  background: #f5f5f5;
+  padding: 12px 34px;
+  color: #2673b9;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+main section.contactForm form.contactForm button.submit:hover {
+  border: 5px solid #2673b9;
+  transition: 0.5s ease;
+  background: #2673b9;
+  color: #ffffff;
+}

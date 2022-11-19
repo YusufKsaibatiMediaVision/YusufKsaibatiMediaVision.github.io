@@ -1,0 +1,163 @@
+hr.pageFooterDivider {
+  border: 2px solid #13aec6;
+  margin: 100px 0 0 0;
+}
+
+footer {
+  margin: 50px 0 10px 0;
+}
+
+@media screen and (min-width: 601px) {
+  footer div.columns {
+    text-align: center;
+    display: contents;
+    height: 400px;
+    margin: auto;
+    width: 100px;
+  }
+
+  footer div.columns div.row {
+    display: inline-table;
+    height: inherit;
+  }
+
+  footer div.columns div.column-1 {
+    height: 100px;
+    width: 33.33%;
+    float: left;
+  }
+
+  footer div.columns div.column-2 {
+    height: 100px;
+    width: 33.33%;
+    float: left;
+  }
+
+  footer div.columns div.column-3 {
+    height: 100px;
+    width: 33.33%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer div.columns div.row {
+    text-align: center;
+  }
+}
+
+footer div.columns div.column-1 img.footerLogo {
+  height: auto;
+  margin: auto;
+  width: 300px;
+}
+
+footer div.columns div.column-1 div.contactInfo {
+  margin: auto;
+  width: 50%;
+}
+
+footer div.columns div.column-1 div.contactInfo div.address h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #00e8d2;
+  margin: 0;
+}
+
+footer div.columns div.column-1 div.contactInfo div.address a,
+footer div.columns div.column-1 div.contactInfo div.phoneNumber a,
+footer div.columns div.column-1 div.contactInfo div.email a,
+footer div.columns div.column-2 div.quickNav ul li a {
+  text-decoration: none;
+  transition: 0.5s ease;
+  font-size: large;
+  color: #13aec6;
+}
+
+footer div.columns div.column-1 div.contactInfo div.address a:hover,
+footer div.columns div.column-1 div.contactInfo div.phoneNumber a:hover,
+footer div.columns div.column-1 div.contactInfo div.email a:hover,
+footer div.columns div.column-2 div.quickNav ul li a:hover {
+  transition: 0.5s ease;
+  color: #2673b8;
+}
+
+footer div.columns div.column-1 div.contactInfo div.phoneNumber {
+  padding: 10px 0 0 0;
+}
+
+footer div.columns div.column-1 div.contactInfo div.email {
+  padding: 5px 0 0 0;
+}
+
+footer div.columns div.column-2 div.quickNav ul {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+
+footer div.columns div.column-2 div.socials {
+  text-align: center;
+  margin: auto;
+}
+
+footer div.columns div.column-2 div.socials ul {
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+
+footer div.columns div.column-2 div.socials ul li {
+  display: table-cell;
+}
+
+footer div.columns div.column-2 div.socials ul li a {
+  transition: 0.5s ease;
+  fill: #13aec6;
+}
+
+footer div.columns div.column-2 div.socials ul li a:hover {
+  transition: 0.5s ease;
+  fill: #2673b8;
+}
+
+footer div.columns div.column-2 div.socials ul li a svg {
+  margin: 0 10px;
+  height: 50px;
+  width: auto;
+}
+
+footer div.columns div.column-3 div.canadianOnly {
+  margin: auto;
+  width: 50%;
+}
+
+footer div.columns div.column-3 div.canadianOnly h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #00e8d2;
+  margin: 0;
+}
+
+footer div.columns div.column-3 div.canadianOnly p {
+  font-size: large;
+  color: #13aec6;
+}
+
+footer div.columns div.column-3 img.flag {
+  height: auto;
+  margin: auto;
+  width: 100px;
+}
+
+footer div.copyright {
+  width: -webkit-fill-available;
+  margin: 10px auto 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+footer div.copyright span {
+  font-size: small;
+  color: #13aec6;
+}

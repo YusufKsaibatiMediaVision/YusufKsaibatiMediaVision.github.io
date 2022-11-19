@@ -1,0 +1,33 @@
+@media screen and (min-width: 601px) {
+  main.services.PPC section.PPC {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services.PPC section.PPC {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+main.services.PPC section.PPC h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services.PPC section.PPC hr.divider {
+  border: 2px solid #13aec6;
+  width: 12%;
+}
+
+main.services.PPC section.PPC p {
+  margin: 25px 0 25px 0;
+  font-size: x-large;
+  color: #13aec6;
+}

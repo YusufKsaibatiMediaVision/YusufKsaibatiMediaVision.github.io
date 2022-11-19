@@ -1,0 +1,87 @@
+main.services section.ourWork {
+  text-align: center;
+  margin: 50px 0;
+}
+
+main.services section.ourWork h1.title {
+  font-size: xx-large;
+  color: #00e8d2;
+}
+
+main.services section.ourWork hr.divider {
+  border: 2px solid #13aec6;
+  width: 15%;
+}
+
+@media screen and (min-width: 601px) {
+  main.services section.ourWork div {
+    display: flex;
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.services section.ourWork div {
+    margin: 25px 0;
+  }
+}
+
+main.services section.ourWork div div {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
+main.services section.ourWork div div svg {
+  fill: #13aec6;
+  height: 75px;
+  width: audo;
+}
+
+main.services section.ourWork div div h2.serviceTitle {
+  color: #00e8d2;
+}
+
+main.services section.ourWork div div p.serviceDescription {
+  margin: auto auto 15px auto;
+  min-height: 72px;
+  color: #2673b9;
+  width: 80%;
+}
+
+main.services section.ourWork div div div.serviceLinkContainer a.serviceLink {
+  text-decoration: none;
+  font-size: large;
+  color: inherit;
+}
+
+main.services
+  section.ourWork
+  div
+  div
+  div.serviceLinkContainer
+  a.serviceLink
+  div.serviceLink {
+  transition: color 1s, background-color 0.25s;
+  border: solid #13aec6;
+  border-radius: 15px;
+  color: #13aec6;
+  padding: 10px;
+  margin: auto;
+}
+
+main.services
+  section.ourWork
+  div
+  div
+  div.serviceLinkContainer
+  a.serviceLink
+  div.serviceLink:hover {
+  transition: color 1s, background-color 0.25s;
+  background-color: #13aec6;
+  border: solid #13aec6;
+  border-radius: 15px;
+  color: #f5f5f5;
+  padding: 10px;
+}

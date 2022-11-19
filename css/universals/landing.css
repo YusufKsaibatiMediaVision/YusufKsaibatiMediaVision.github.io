@@ -1,0 +1,82 @@
+@media screen and (min-width: 601px) {
+  main section.landing {
+    position: relative;
+  }
+
+  main section.landing div.video {
+    max-height: 600px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  main section.landing div.video video.video.background {
+    transform: translateY(-50%);
+    position: relative;
+    width: 100%;
+    top: 50%;
+  }
+
+  main section.landing div.imageAndText {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    right: 0;
+    left: 0;
+    top: 0%;
+  }
+
+  main section.landing div.imageAndText img {
+    height: auto;
+    width: 500px;
+  }
+
+  main section.landing div.imageAndText h1 {
+    font-size: xxx-large;
+  }
+
+  main section.landing div.imageAndText h2 {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main section.landing div.video {
+    max-height: 100px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  main section.landing div.video video.video.background {
+    transform: translateY(-50%);
+    width: 100%;
+    top: 50%;
+  }
+
+  main section.landing div.imageAndText {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    right: 0;
+    left: 0;
+    top: 0%;
+  }
+
+  main section.landing div.imageAndText img {
+    display: none;
+  }
+
+  main section.landing div.imageAndText h1 {
+    font-size: x-large;
+    color: #2673b9;
+  }
+
+  main section.landing div.imageAndText h2 {
+    font-size: large;
+    color: #2673b9;
+  }
+}

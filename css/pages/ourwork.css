@@ -1,0 +1,60 @@
+@media screen and (min-width: 601px) {
+  main.ourwork section.ourWork div.left-right {
+    display: flex;
+  }
+
+  main.ourwork section.ourWork div.left-right a.image {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+  }
+
+  main.ourwork section.ourWork div.left-right div.about {
+    align-content: center;
+    display: grid;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main.ourwork section.ourWork div.left-right a.image {
+    position: relative;
+    overflow: hidden;
+  }
+
+  main.ourwork section.ourWork div.left-right div.about {
+    align-content: center;
+    display: grid;
+  }
+}
+
+main.ourwork section.ourWork div.left-right a.image img {
+  transition: filter ease 0.5s, transform 0.5s;
+  transform-origin: center center;
+  filter: brightness(65%);
+  display: block;
+  border: none;
+  height: auto;
+  width: 100%;
+}
+
+main.ourwork section.ourWork div.left-right a.image img:hover {
+  transition: filter ease 0.5s, transform 0.5s;
+  filter: brightness(100%);
+  transform: scale(1.03);
+}
+
+main.ourwork section.ourWork div.left-right div.about h1.title {
+  font-size: xx-large;
+  text-align: center;
+  color: #00e8d2;
+  padding: 10px;
+  margin: 0;
+}
+
+main.ourwork section.ourWork div.left-right div.about p {
+  font-size: x-large;
+  text-align: center;
+  color: #2673b9;
+  padding: 10px;
+}

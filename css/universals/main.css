@@ -1,0 +1,13 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #f5f5f5;
+}
+
+main hr.pageDivider {
+  border: 2px solid #13aec6;
+  width: 90%;
+}
